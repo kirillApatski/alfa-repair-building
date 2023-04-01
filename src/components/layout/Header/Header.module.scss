@@ -1,0 +1,142 @@
+.header {
+  &::before {
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background-image: url("../../../assets/images/bgHeaderRightBottom.png");
+    background-position: right top 20px;
+    background-repeat: no-repeat;
+    background-size: 16%;
+  }
+  .headerTop {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    padding: 29px 0;
+    justify-content: space-between;
+
+    .timeWork {
+      max-width: 185px;
+      width: 100%;
+      font-weight: 500;
+      text-align: center;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .buttonBox {
+      display: flex;
+      align-items: center;
+
+      .orderLayout {
+        display: inline-block;
+        padding-bottom: 7px;
+        background-color: #fff;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        border-bottom: 1px solid #000;
+      }
+    }
+
+    .callBox {
+      display: flex;
+      gap: 31px;
+      justify-content: space-between;
+
+      .call {
+        display: flex;
+        align-items: center;
+
+        .linkBox {
+          .number {
+            font-family: 'Montserrat';
+            font-weight: 800;
+            font-size: 22px;
+            line-height: 27px;
+            color: #363130;
+          }
+
+          .socialBox {
+            display: flex;
+            justify-content: space-evenly;
+          }
+        }
+      }
+
+      .bookCall {
+        padding: 22px 56px;
+        background: #319F1C;
+        box-shadow: 0 4px 5px #319F1C;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+  .headerLink {
+    background: linear-gradient(90deg,
+            rgba(246, 246, 246, 0) 1.47%,
+            rgba(163, 210, 155, 0.92) 7.25%,
+            #319F1C 14.68%,
+            #309E1B 50.68%,
+            #319F1C 84.33%,
+            rgba(147, 202, 137, 0.79) 91.68%,
+            rgba(246, 246, 246, 0) 99.05%);
+    border-radius: 3px;
+    padding: 0 100px;
+    .navLinkBox {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1044px;
+      width: 100%;
+      margin: 0 auto;
+      .navLinkItem {
+        position: relative;
+        padding: 22px 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        &:hover {
+          cursor: pointer;
+          .dropDown {
+            display: block;
+          }
+        }
+        &::after {
+          content: '';
+          position: absolute;
+          right: -15px;
+          bottom: 25px;
+          border: 4px solid transparent;
+          border-top: 5px solid #fff;
+        }
+        .dropDown {
+          display: none;
+          width: 348px;
+          position: absolute;
+          bottom: -191px;
+          left: 0;
+          padding: 25px;
+          background: #595959;
+          border-radius: 0 0 3px 3px;
+          .dropDownItem {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+            padding-bottom: 8px;
+            margin-bottom: 19px;
+            border-bottom: 1px solid #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+}
+
