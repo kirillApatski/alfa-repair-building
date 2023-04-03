@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/alfa-repair-building/static/css/main.e1666cb6.css",
+    "main.css": "/alfa-repair-building/static/css/main.be7a3deb.css",
     "main.js": "/alfa-repair-building/static/js/main.e3c513a2.js",
     "static/media/HomePageBg.jpg": "/alfa-repair-building/static/media/HomePageBg.496b0330adf6195bd2d5.jpg",
     "static/media/caseHouse2.png": "/alfa-repair-building/static/media/caseHouse2.cdcefd2fda43676d654e.png",
@@ -24,11 +24,11 @@
     "static/media/caseSheetBg.png": "/alfa-repair-building/static/media/caseSheetBg.71aa72a133d96596963f.png",
     "static/media/play-button.svg": "/alfa-repair-building/static/media/play-button.91c13d061f403cf5e11e8b4796a9a8da.svg",
     "index.html": "/alfa-repair-building/index.html",
-    "main.e1666cb6.css.map": "/alfa-repair-building/static/css/main.e1666cb6.css.map",
+    "main.be7a3deb.css.map": "/alfa-repair-building/static/css/main.be7a3deb.css.map",
     "main.e3c513a2.js.map": "/alfa-repair-building/static/js/main.e3c513a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1666cb6.css",
+    "static/css/main.be7a3deb.css",
     "static/js/main.e3c513a2.js"
   ]
 }
