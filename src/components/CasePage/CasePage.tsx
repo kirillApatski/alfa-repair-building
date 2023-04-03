@@ -1,12 +1,13 @@
 import React from 'react';
+import styles from './CasePage.module.scss'
 import Banner from "./Baner/Banner";
-import Feedback from "./Feedback/Feedback";
+import Case from "./Case/Case";
 
 const CasePage = () => {
   return (
-    <section>
+    <section className={styles.wrapperCasePage}>
       <Banner/>
-      <Feedback/>
+      <Case/>
     </section>
   );
 };

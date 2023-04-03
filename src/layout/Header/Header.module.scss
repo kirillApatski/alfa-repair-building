@@ -1,5 +1,6 @@
 .header {
   position: relative;
+
   &::before {
     content: '';
     position: absolute;
@@ -13,6 +14,7 @@
     background-repeat: no-repeat;
     background-size: 16%;
   }
+
   .headerTop {
     position: relative;
     z-index: 2;
@@ -58,6 +60,7 @@
           display: flex;
           flex-direction: column;
           gap: 6px;
+
           .number {
             font-family: 'Montserrat', sans-serif;
             font-weight: 800;
@@ -70,6 +73,7 @@
             display: flex;
             justify-content: space-evenly;
             cursor: pointer;
+
             .socialItem {
               &:hover {
                 transform: scale(1.1);
@@ -105,12 +109,14 @@
             rgba(246, 246, 246, 0) 99.05%);
     border-radius: 3px;
     padding: 0 100px;
+
     .navLinkBox {
       display: flex;
       justify-content: space-between;
       max-width: 1044px;
       width: 100%;
       margin: 0 auto;
+
       .navLinkItem {
         position: relative;
         padding: 22px 0;
@@ -118,12 +124,15 @@
         font-size: 16px;
         line-height: 19px;
         color: #FFFFFF;
+
         &:hover {
           cursor: pointer;
+
           .dropDown {
             display: block;
           }
         }
+
         &::after {
           content: '';
           position: absolute;
@@ -132,6 +141,7 @@
           border: 4px solid transparent;
           border-top: 5px solid #fff;
         }
+
         .dropDown {
           display: none;
           width: 348px;
@@ -141,6 +151,7 @@
           padding: 25px;
           background: #595959;
           border-radius: 0 0 3px 3px;
+
           .dropDownItem {
             font-weight: 500;
             font-size: 16px;
@@ -149,6 +160,183 @@
             padding-bottom: 8px;
             margin-bottom: 19px;
             border-bottom: 1px solid #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .header {
+    .headerTop {
+      .timeWork {
+      }
+
+      .buttonBox {
+        display: none;
+
+        .orderLayout {
+
+        }
+      }
+
+      .callBox {
+
+
+        .call {
+
+
+          .linkBox {
+
+            .number {
+
+            }
+
+            .socialBox {
+
+              .socialItem {
+
+              }
+            }
+          }
+        }
+
+        .bookCall {
+
+        }
+      }
+    }
+
+    .headerLink {
+
+      .navLinkBox {
+
+        .navLinkItem {
+
+        }
+        .dropDown {
+
+          .dropDownItem {
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .header {
+    .headerTop {
+      .timeWork {
+      }
+
+      .buttonBox {
+        display: none;
+
+        .orderLayout {
+
+        }
+      }
+
+      .callBox {
+        display: none;
+
+        .call {
+
+
+          .linkBox {
+
+            .number {
+
+            }
+
+            .socialBox {
+
+              .socialItem {
+
+              }
+            }
+          }
+        }
+
+        .bookCall {
+
+        }
+      }
+    }
+
+    .headerLink {
+
+      .navLinkBox {
+
+        .navLinkItem {
+
+        }
+        .dropDown {
+
+          .dropDownItem {
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    margin-bottom: 50px;
+    .headerTop {
+      .timeWork {
+        display: none;
+      }
+
+      .buttonBox {
+        display: none;
+
+        .orderLayout {
+
+        }
+      }
+
+      .callBox {
+        display: none;
+
+        .call {
+
+
+          .linkBox {
+
+            .number {
+
+            }
+
+            .socialBox {
+
+              .socialItem {
+
+              }
+            }
+          }
+        }
+
+        .bookCall {
+
+        }
+      }
+    }
+
+    .headerLink {
+      display: none;
+      .navLinkBox {
+
+        .navLinkItem {
+
+        }
+        .dropDown {
+
+          .dropDownItem {
+
           }
         }
       }

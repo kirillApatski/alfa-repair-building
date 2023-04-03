@@ -6,6 +6,7 @@ import CallSvg from "../../assets/iconsSVG/CallSvg";
 import Whatsapp from "../../assets/iconsSVG/Whatsapp";
 import TelegramSvg from "../../assets/iconsSVG/TelegramSvg";
 import ViberSvg from "../../assets/iconsSVG/ViberSvg";
+import BtnMenuSvg from "../../assets/iconsSVG/BtnMenuSvg";
 
 const Header = () => {
   return (
@@ -33,9 +34,10 @@ const Header = () => {
                 </ul>
               </div>
             </div>
-            <div className={styles.buttonBox}>
-              <button className={styles.bookCall}>Заказать звонок</button>
-            </div>
+            <button className={styles.bookCall}>Заказать звонок</button>
+          </div>
+          <div className={styles.menuBurger}>
+            <BtnMenuSvg/>
           </div>
         </div>
         <nav className={styles.headerLink}>
