@@ -1,0 +1,75 @@
+.feedBackHomeWrapper {
+
+  padding-top: 300px;
+  background: url("../../../assets/images/cloudsFeedbackBg.png") no-repeat left top -150px,
+  url("../../../assets/images/shepkiFeedbackBg.png") no-repeat top 20% right 50%,
+  url("../../../assets/images/treeFeedbackBg.png") no-repeat right,
+  url("../../../assets/images/helmetFeedbackBg.png") no-repeat right 10% bottom 5%,
+  url("../../../assets/images/feedBackHomeBg.jpg") no-repeat left bottom;
+
+
+  .content {
+    display: flex;
+    justify-content: end;
+    margin-left: 50px;
+    .feedbackForm {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 115px;
+
+      .title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 52px;
+        color: #2E2C2C;
+        margin-bottom: 20px;
+      }
+
+      .description {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+        margin-bottom: 47px;
+      }
+
+      .formItem {
+        max-width: 507px;
+        width: 100%;
+        background: #FFFFFF;
+        border: 1px solid #319F1C;
+        border-radius: 3px;
+        padding: 13px 0 13px 30px;
+        margin-bottom: 20px;
+      }
+
+      .feedBackMessages {
+        background: #FFFFFF;
+        border: 1px solid #319F1C;
+        border-radius: 3px;
+        max-width: 507px;
+        width: 100%;
+        height: 100px;
+        padding: 13px 0 0 30px;
+      }
+
+      .btnBox {
+        margin-top: 32px;
+        max-width: 240px;
+        width: 100%;
+
+        .feedBackBtn {
+          width: 100%;
+          background: #319F1C;
+          border-radius: 3px;
+          padding: 13px 0;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 19px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
