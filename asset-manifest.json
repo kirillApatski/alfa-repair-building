@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/alfa-repair-building/static/css/main.e1666cb6.css",
+    "main.js": "/alfa-repair-building/static/js/main.e3c513a2.js",
+    "static/media/HomePageBg.jpg": "/alfa-repair-building/static/media/HomePageBg.496b0330adf6195bd2d5.jpg",
+    "static/media/caseHouse2.png": "/alfa-repair-building/static/media/caseHouse2.cdcefd2fda43676d654e.png",
+    "static/media/caseHouse1.png": "/alfa-repair-building/static/media/caseHouse1.6ea95e03fc4129ee8c9d.png",
+    "static/media/cloudsBottomLeftBg1.png": "/alfa-repair-building/static/media/cloudsBottomLeftBg1.5ea7cbc9e4f5a54ccf61.png",
+    "static/media/Montserrat-ExtraBold.ttf": "/alfa-repair-building/static/media/Montserrat-ExtraBold.3a9ee100617f45a96d92.ttf",
+    "static/media/cloudsBottomBg.png": "/alfa-repair-building/static/media/cloudsBottomBg.74aa6e4125fdb5efe207.png",
+    "static/media/treeFeedbackBg.png": "/alfa-repair-building/static/media/treeFeedbackBg.a046d5fd38563a70d839.png",
+    "static/media/Raleway-Medium.ttf": "/alfa-repair-building/static/media/Raleway-Medium.601cda68c7b7bbcc9a12.ttf",
+    "static/media/Raleway-Regular.ttf": "/alfa-repair-building/static/media/Raleway-Regular.3927fa2a37e6f7f4c7c0.ttf",
+    "static/media/Raleway-SemiBold.ttf": "/alfa-repair-building/static/media/Raleway-SemiBold.cc770b2afb65067aae51.ttf",
+    "static/media/Raleway-ExtraBold.ttf": "/alfa-repair-building/static/media/Raleway-ExtraBold.8b7015f87bd9859e1382.ttf",
+    "static/media/treeLeft.png": "/alfa-repair-building/static/media/treeLeft.ced492fee453cfdd4dd9.png",
+    "static/media/cloudsBottomLeftBg2.png": "/alfa-repair-building/static/media/cloudsBottomLeftBg2.4d358b620e2cf9fea722.png",
+    "static/media/feedBackHomeBg.jpg": "/alfa-repair-building/static/media/feedBackHomeBg.25a2371e73bd3164199c.jpg",
+    "static/media/bgHeaderRightBottom.png": "/alfa-repair-building/static/media/bgHeaderRightBottom.1cf76fa69496062ae891.png",
+    "static/media/helmetFeedbackBg.png": "/alfa-repair-building/static/media/helmetFeedbackBg.f9a2c56a688f38603300.png",
+    "static/media/shepkiFeedbackBg.png": "/alfa-repair-building/static/media/shepkiFeedbackBg.90e2f6633a484ae00afa.png",
+    "static/media/caseSliversBg.png": "/alfa-repair-building/static/media/caseSliversBg.ab7d6ba3d539c5e01345.png",
+    "static/media/bigBoxBg.png": "/alfa-repair-building/static/media/bigBoxBg.6a09ecb496d5995d0f17.png",
+    "static/media/caseSheetBg.png": "/alfa-repair-building/static/media/caseSheetBg.71aa72a133d96596963f.png",
+    "static/media/play-button.svg": "/alfa-repair-building/static/media/play-button.91c13d061f403cf5e11e8b4796a9a8da.svg",
+    "index.html": "/alfa-repair-building/index.html",
+    "main.e1666cb6.css.map": "/alfa-repair-building/static/css/main.e1666cb6.css.map",
+    "main.e3c513a2.js.map": "/alfa-repair-building/static/js/main.e3c513a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1666cb6.css",
+    "static/js/main.e3c513a2.js"
+  ]
+}
