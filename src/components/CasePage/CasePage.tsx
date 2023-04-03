@@ -1,12 +1,14 @@
 import React from 'react';
 import Banner from "./Baner/Banner";
+import Feedback from "./Feedback/Feedback";
 
-const HomePage = () => {
+const CasePage = () => {
   return (
     <section>
       <Banner/>
+      <Feedback/>
     </section>
   );
 };
 
-export default HomePage;
+export default CasePage;

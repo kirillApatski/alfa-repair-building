@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './Header.module.scss'
-import LogoSVG from "../../../assets/iconsSVG/LogoSvg";
-import OrderLayoutSvg from "../../../assets/iconsSVG/OrderLayoutSvg";
-import CallSvg from "../../../assets/iconsSVG/CallSvg";
-import Whatsapp from "../../../assets/iconsSVG/Whatsapp";
-import TelegramSvg from "../../../assets/iconsSVG/TelegramSvg";
-import ViberSvg from "../../../assets/iconsSVG/ViberSvg";
+import LogoSVG from "../../assets/iconsSVG/LogoSvg";
+import OrderLayoutSvg from "../../assets/iconsSVG/OrderLayoutSvg";
+import CallSvg from "../../assets/iconsSVG/CallSvg";
+import Whatsapp from "../../assets/iconsSVG/Whatsapp";
+import TelegramSvg from "../../assets/iconsSVG/TelegramSvg";
+import ViberSvg from "../../assets/iconsSVG/ViberSvg";
 
 const Header = () => {
   return (
@@ -43,41 +43,41 @@ const Header = () => {
             <li className={styles.navLinkItem}>
               Каталог домов
               <ul className={styles.dropDown}>
-                <li className={styles.dropDownItem}><a href="#">Кейсы</a></li>
-                <li className={styles.dropDownItem}><a href="#">Видеоблог</a></li>
-                <li className={styles.dropDownItem}><a href="#">Полезные статьи</a></li>
+                <li className={styles.dropDownItem}><a href="src/layout/Header/Header#">Кейсы</a></li>
+                <li className={styles.dropDownItem}><a href="src/layout/Header/Header#">Видеоблог</a></li>
+                <li className={styles.dropDownItem}><a href="src/layout/Header/Header#">Полезные статьи</a></li>
               </ul>
             </li>
             <li className={styles.navLinkItem}>
               Услуги
               <ul className={styles.dropDown}>
-                <li className={styles.dropDownItem}><a href="#">Кейсы</a></li>
-                <li className={styles.dropDownItem}><a href="#">Видеоблог</a></li>
-                <li className={styles.dropDownItem}><a href="#">Полезные статьи</a></li>
+                <li className={styles.dropDownItem}><a href="src/layout/Header/Header#">Кейсы</a></li>
+                <li className={styles.dropDownItem}><a href="src/layout/Header/Header#">Видеоблог</a></li>
+                <li className={styles.dropDownItem}><a href="src/layout/Header/Header#">Полезные статьи</a></li>
               </ul>
             </li>
             <li className={styles.navLinkItem}>
               О нас
               <ul className={styles.dropDown}>
-                <li className={styles.dropDownItem}><a href="#">Кейсы</a></li>
-                <li className={styles.dropDownItem}><a href="#">Видеоблог</a></li>
-                <li className={styles.dropDownItem}><a href="#">Полезные статьи</a></li>
+                <li className={styles.dropDownItem}><a href="src/layout/Header/Header#">Кейсы</a></li>
+                <li className={styles.dropDownItem}><a href="src/layout/Header/Header#">Видеоблог</a></li>
+                <li className={styles.dropDownItem}><a href="src/layout/Header/Header#">Полезные статьи</a></li>
               </ul>
             </li>
             <li className={styles.navLinkItem}>
               Контакты
               <ul className={styles.dropDown}>
-                <li className={styles.dropDownItem}><a href="#">Кейсы</a></li>
-                <li className={styles.dropDownItem}><a href="#">Видеоблог</a></li>
-                <li className={styles.dropDownItem}><a href="#">Полезные статьи</a></li>
+                <li className={styles.dropDownItem}><a href="src/layout/Header/Header#">Кейсы</a></li>
+                <li className={styles.dropDownItem}><a href="src/layout/Header/Header#">Видеоблог</a></li>
+                <li className={styles.dropDownItem}><a href="src/layout/Header/Header#">Полезные статьи</a></li>
               </ul>
             </li>
             <li className={styles.navLinkItem}>
               Блог
               <ul className={styles.dropDown}>
-                <li className={styles.dropDownItem}><a href="#">Кейсы</a></li>
-                <li className={styles.dropDownItem}><a href="#">Видеоблог</a></li>
-                <li className={styles.dropDownItem}><a href="#">Полезные статьи</a></li>
+                <li className={styles.dropDownItem}><a href="src/layout/Header/Header#">Кейсы</a></li>
+                <li className={styles.dropDownItem}><a href="src/layout/Header/Header#">Видеоблог</a></li>
+                <li className={styles.dropDownItem}><a href="src/layout/Header/Header#">Полезные статьи</a></li>
               </ul>
             </li>
           </ul>

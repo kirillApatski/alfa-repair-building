@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import Header from "./components/layout/Header/Header";
-import HomePage from "./components/HomePage/HomePage";
+import Header from "./layout/Header/Header";
+import CasePage from "./components/CasePage/CasePage";
+import Footer from "./layout/Footer/Footer";
 
 function App() {
   return (
     <div className="appWrapper">
       <Header/>
-      <HomePage/>
+      <CasePage/>
+      <Footer/>
     </div>
   );
 }
